@@ -1,0 +1,25 @@
+/* Variables */
+:root{
+    --primary-color: hsl(4, 100%, 67%);
+    --background-color-800: hsl(234, 29%, 20%);
+    --blue-color-700: (235, 18%, 26%);
+    --grey-color: hsl(0, 0%,58%);
+    --white-color: hsl(0, 0%, 100%);
+    --font-size-paragraph: 16px;
+}
+
+/* Body */
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
