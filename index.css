@@ -9,10 +9,36 @@
 }
 
 /* Body */
-body{
+*{
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--background-color-800);
+}
+
+.container{
+    display: flex;
+    width: 800px;
+    background-color: var(--white-color);
+    border-radius: 30px;
+}
+
+.left__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.right__container{
+    padding: 20px;
 }
 
 /* Attribution */
