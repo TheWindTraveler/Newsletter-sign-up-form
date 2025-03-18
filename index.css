@@ -16,30 +16,118 @@
 }
 
 body{
-    margin: 20px;
+    margin: 30px;
+    color: var(--background-color-800);
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: var(--background-color-800);
 }
 
+p{
+    font-size: var(--font-size-paragraph);
+}
+
+/* General container */
 .container{
     display: flex;
-    width: 800px;
+    justify-content: space-between;
+    width: 850px;
     background-color: var(--white-color);
     border-radius: 30px;
 }
 
+/* Left container */
 .left__container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 30px;
+    padding: 70px;
 }
 
+
+/* Right Container */
 .right__container{
-    padding: 20px;
+    padding: 20px 0 0 150px;
 }
+
+.right__img{
+    width: 400px;
+    height: 530px;
+}
+
+
+/* Heading  */
+#heading1{
+    margin-bottom: 25px;
+    font-size: 40px;
+    width: 200%;
+}
+
+#sub__heading1{
+    margin-bottom: 30px;
+    width: 250%;
+}
+
+/* Icons and Tick */
+.tick__section img{
+    width: 18px;
+    vertical-align: middle;
+}
+
+.tick__section{
+    margin-bottom: 15px;
+    width: 250%;
+}
+
+.icons{
+    padding-right: 10px;
+}
+
+/* Email Container */
+.email__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+label{
+    font-weight: 700;
+    padding: 5px;
+}
+
+input{
+    line-height: 50px;
+    border-radius: 10px;
+    border: 1px solid var(--grey-color);
+    border-color: var(--grey-color);
+    padding: 5px;
+    width: 220%;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    padding: 10px;
+    font-size: var(--font-size-paragraph);
+}
+
+/* Button */
+.btn{
+    padding: 18px;
+    background-color: var(--background-color-800);
+    color: var(--white-color);
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 230%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--primary-color);
+}
+
+
 
 /* Attribution */
 .attribution {

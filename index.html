@@ -11,19 +11,28 @@
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 </head>
 <body>
+  <!-- Container -->
   <div class="container">
+    <!-- Left Container -->
     <div class="left__container">
-      <h1>Stay Updated</h1>
-      <p> Join 60,000+ product managers receiving monthly updates on:</p>
-      <span class="tick__section"><img src="./assets/images/icon-list.svg" alt="Icon list">Product discovery and building what matters</span>
-      <span class="tick__section"><img src="./assets/images/icon-list.svg" alt="Icon list"> Measuring to ensure updates are a success</span>
-      <span class="tick__section"><img src="./assets/images/icon-list.svg" alt="Icon list">And much more!</span>
-      <label for="email">Enter your email:</label>
-      <input type="email" id="email" name="email" placeholder="email@company.com">
-      <button class="btn">Subscribe to monthly newsletter</button>
+      <h1 id="heading1">Stay Updated!</h1>
+      <p id="sub__heading1"> Join 60,000+ product managers receiving monthly updates on:</p>
+      <!-- Icons and Ticks -->
+      <span class="tick__section"><img src="./assets/images/icon-list.svg" alt="Icon list" class="icons">Product discovery and building what matters</span>
+      <span class="tick__section"><img src="./assets/images/icon-list.svg" alt="Icon list" class="icons">Measuring to ensure updates are a success</span>
+      <span class="tick__section"><img src="./assets/images/icon-list.svg" alt="Icon list" class="icons">And much more!</span>
+      
+      <!-- Email Container -->
+      <div class="email__container">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="email@company.com">
+        <button class="btn">Subscribe to monthly newsletter</button>
+      </div>
     </div>
+
+    <!-- Right container -->
     <div class="right__container">
-      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop" class="right__img">
     </div>
   </div>
 
